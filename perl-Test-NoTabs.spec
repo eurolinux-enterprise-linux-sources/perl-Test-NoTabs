@@ -1,6 +1,6 @@
 Name:		perl-Test-NoTabs
 Version:	1.3
-Release:	4%{?dist}
+Release:	5%{?dist}
 Summary:	Check the presence of tabs in your project
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -50,6 +50,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Test::NoTabs.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3-5
+- Mass rebuild 2013-12-27
+
 * Tue Oct 23 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.3-4
 - Remove BR: perl(ExtUtils::MakeMaker)
 - Replace bundled modules Module::Install* by BR perl(inc::Module::Install)
